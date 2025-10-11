@@ -6,8 +6,8 @@ import os
 app = FastAPI(title="Discord Counts API")
 
 # MongoDB setup
-MONGO_URI = os.getenv("MONGO_URL")
-if not MONGO_URI:
+MONGO_URL = os.getenv("MONGO_URL")
+if not MONGO_URL:
     raise ValueError("NO MONGO")
 
 client = AsyncIOMotorClient(MONGO_URL)
