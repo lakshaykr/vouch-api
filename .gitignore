@@ -1,0 +1,42 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# IDE / Editor files
+.vscode/
+*.code-workspace
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# Database files (if any)
+*.sqlite3
+
+# Render deployment / build folders
+__pycache__/
+*.pyc
+
+# Ignore compiled files
+*.so
+*.dylib
+*.dll
+
+# Backup files
+*.bak
+*.swp
